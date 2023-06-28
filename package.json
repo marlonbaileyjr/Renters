@@ -1,0 +1,27 @@
+{
+  "name": "renters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonbaileyjr23/Renters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonbaileyjr23/Renters/issues"
+  },
+  "homepage": "https://github.com/marlonbaileyjr23/Renters#readme",
+  "dependencies": {
+    "expo": "^48.0.19",
+    "expo-device": "^5.2.1",
+    "expo-notifications": "^0.18.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

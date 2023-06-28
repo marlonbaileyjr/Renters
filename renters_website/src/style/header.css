@@ -1,0 +1,37 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease; /* Add transition property */
+}
+
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease; /* Add transition property */
+}
+
+.nav-link:hover {
+  color: gray; /* Change the color to your desired hover color */
+}
+
+.header:hover {
+  background-color: #b3d1ff; /* Change the background color to your desired hover color */
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}

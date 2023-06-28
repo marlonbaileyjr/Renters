@@ -1,0 +1,27 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    float: left;
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .description h2 {
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    margin-bottom: 20px;
+  }
+  

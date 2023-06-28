@@ -1,0 +1,55 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+
+.welcomeDiv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-container {
+  margin-top: 50px;
+}
+
+.carousel-slide {
+  position: relative;
+  height: 400px; /* Set a fixed height for the carousel slides */
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and fill the slide */
+}
+
+.carousel-legend {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Additional styling for react-responsive-carousel */
+.carousel .slider-wrapper {
+  overflow: visible !important;
+}
+
+.carousel .control-dots {
+  bottom: -25px !important;
+}
